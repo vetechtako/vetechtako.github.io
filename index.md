@@ -1,1 +1,1 @@
-<img src="https://vetechtako.github.io/hololive-ina.gif" style="width: 50%; max-width: 200px; height: auto;" alt="takodachi">
+<img src="https://vetechtako.github.io/hololive_ina_.gif" style="max-width: 100%; height: auto;" alt="takodachi">
