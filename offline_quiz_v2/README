@@ -1,0 +1,29 @@
+👾選擇題練習程式v2
+
+功能：
+100題隨機出題形式，每頁顯示50題。
+作答後可看正解和詳解。
+錯題記錄及錯題複習功能。
+單機程式，無須網路，不用擔心題庫從雲端外流。
+
+使用說明：
+請自備題庫和詳解。
+程式將從各題庫平均抽取題目，總共100題。
+請將題庫 CSV 檔放在 questions/ 資料夾。
+題庫 CSV 檔格式請見 questions/ 資料夾內的範例題庫 CSV 檔。
+增加新的題庫 CSV 檔之後，請按［重新載入題庫］按鈕。
+錯題紀錄將匯出於 wrong_questions/ 資料夾內。
+
+👾如需打包好的.exe程式，請下載 offline_quiz_v2.zip
+⚠ .exe 執行檔有可能被防毒軟體誤判為可疑程式，請自行評估使用。
+
+資料夾結構：
+offline_quiz_v2
+├── quiz_system.py                      
+├── questions/     ← 放置題庫 CSV 的資料夾（題庫及題目數量無限制）
+│   ├── 題庫001.csv
+│   ├── 題庫002.csv
+│   └── ...
+├── wrong_questions/                  ← 儲存錯題紀錄與匯出 CSV
+│   ├── wrong_questions.json          ← 錯題紀錄
+│   └── wrong_questions_日期_時間.csv  ← 錯題紀錄 CSV
